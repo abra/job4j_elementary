@@ -1,6 +1,4 @@
-package ru.job4j.ru.job4j.converter;
-
-import java.util.Arrays;
+package ru.job4j.converter;
 
 public class Converter {
     public static int rubleToEuro(int value) {
