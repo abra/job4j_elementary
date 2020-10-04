@@ -4,7 +4,7 @@ public class PrimeNumber {
     public static int countPrimeNumbers(int number) {
         int count = 0;
 
-        for (int i = number; i > 0; i--) {
+        for (int i = 2; i <= number; i++) {
             if (CheckPrimeNumber.check(i)) {
                 count++;
             }
