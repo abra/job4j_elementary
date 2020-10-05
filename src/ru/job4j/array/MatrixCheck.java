@@ -7,7 +7,7 @@ public class MatrixCheck {
         for (int column = 0; column < board[row].length; column++) {
             if (board[row][column] != 'X') {
                 result = false;
-                break;
+                break; //
             }
         }
 
@@ -20,7 +20,7 @@ public class MatrixCheck {
         for (int row = 0; row < board.length; row++) {
             if (board[row][column] != 'X') {
                 result = false;
-                break;
+                break; //
             }
         }
 
