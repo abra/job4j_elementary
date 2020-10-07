@@ -4,10 +4,7 @@ public class Defragment {
     public static String[] compress(String[] array) {
 
         for (int i = 0; i < array.length; i++) {
-
             if (array[i] == null) {
-                int point = i;
-
                 for (int j = i + 1; j < array.length; j++) {
                     if (array[j] != null) {
                         array[i] = array[j];
@@ -15,8 +12,6 @@ public class Defragment {
                         break;
                     }
                 }
-
-                i = point;
             }
         }
 
